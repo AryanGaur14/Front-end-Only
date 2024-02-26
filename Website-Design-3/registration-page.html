@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url("./image/back.jpg");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+<!-- registration-form-for-desktop-start -->
+
+<form action="" class=" hidden h-screen md:flex justify-center items-center">
+
+<div class="p-8 bg-slate-900 md:m-0 md:h-[85%] md:w-3/4">
+
+    <!-- heading-start -->
+
+    <div class="flex justify-center items-center text-2xl md:text-4xl font-bold text-white">Registration</div>
+
+    <!-- heading-ends -->
+
+    <!-- input-details-start -->
+
+<div class="m-4 flex h-[85%] w-auto">
+        <div class="p-4 h-full w-1/2 flex flex-col">
+            <label class="md:text-lg font-semibold text-white" for="firstname-id">First Name</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="text" name="firstname" id="firstname-id">
+            <label class="md:text-lg font-semibold text-white" for="lastname-id">Last Name</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="text" name="lastname" id="lastname-id">
+            <label class="md:text-lg font-semibold text-white" for="age-id">Age</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="number" name="age" id="age-id">
+        <div class="text-white m-2 flex gap-4">
+            <label class="md:text-lg font-semibold text-white" for="gender">Gender: </label>
+            <input class="text-white" type="radio" name="gender" id="gender-male" value="male">Male
+            <input class="text-white" type="radio" name="gender" id="gender-female" value="female">Female
+        </div>
+            <label class="md:text-lg font-semibold text-white" for="email-id">Email</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="email" name="email" id="email-id">
+
+            <label class="md:text-lg font-semibold text-white" for="phone-number-id">Phone Number</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="number" name="phone-number" id="phone-number-id">
+        </div>
+        <div class="p-4 h-full w-1/2 flex flex-col">
+            <label class="md:text-lg font-semibold text-white" for="username-id">Username</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="text" name="username" id="username-id">
+            <label class="md:text-lg font-semibold text-white" for="password-id">Password</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl" type="password" name="password" id="password-id">
+            <label class="md:text-lg font-semibold text-white" for="confirm-password-id">Confirm Password</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl" type="password" name="confirm-password" id="confirm-password-id">
+            <!-- <div class="text-red-400">Password is wrong</div> -->
+            <label class="mt-2 md:text-lg font-semibold text-white" for="user-image-id">Upload Your Photo</label>
+            <input class="md:text-lg font-semibold text-white" type="file" name="user-image" id="user-image-id">
+        <div class="text-white m-2 flex gap-4">
+            <label class="md:text-lg font-semibold text-white" for="user-type">User Type: </label>
+            <input class="md:text-lg font-semibold text-white" type="radio" name="user-type" id="normal-user-id" value="normal-user">Normal User
+            <input class="md:text-lg font-semibold text-white" type="radio" name="user-type" id="trainer-id" value="trainer">Trainer
+        </div>    
+            <div class="flex justify-center">
+                <input class="text-white bg-red-500 w-28 p-2 rounded-xl cursor-pointer text-lg font-bold" type="submit" value="Submit">
+            </div>
+        </div>
+</div>
+
+    <!-- input-details-ends -->
+
+</div>
+
+</form>
+
+<!-- registration-form-for-desktop-ends-->
+
+<!-- registation-form-for-mobile-start -->
+
+<form action="" class="md:hidden min-h-screen flex flex-col justify-center items-center">
+    <div class=" w-80 my-4 bg-slate-900 p-4 rounded-xl">
+
+        <!-- heading-start -->
+
+        <div class="flex justify-center items-center text-2xl md:text-4xl font-bold text-white">Registration</div>
+
+        <!-- heading-ends -->
+
+
+        <!-- input-details-start -->
+
+        <div class=" flex flex-col">
+            <label class="md:text-lg font-semibold text-white" for="firstname-id">First Name</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="text" name="firstname" id="firstname-id">
+            <label class="md:text-lg font-semibold text-white" for="lastname-id">Last Name</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="text" name="lastname" id="lastname-id">
+            <label class="md:text-lg font-semibold text-white" for="age-id">Age</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="number" name="age" id="age-id">
+        <div class="text-white m-2 flex gap-4">
+                <label class="md:text-lg font-semibold text-white" for="gender">Gender: </label>
+                <input class="text-white" type="radio" name="gender" id="gender-male" value="male">Male
+                <input class="text-white" type="radio" name="gender" id="gender-female" value="female">Female
+        </div>
+            <label class="md:text-lg font-semibold text-white" for="email-id">Email</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="email" name="email" id="email-id">
+            <label class="md:text-lg font-semibold text-white" for="phone-number-id">Phone Number</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="number" name="phone-number" id="phone-number-id">
+        </div>        
+
+    </div>
+    <div class=" w-80 m-0 mb-4 bg-slate-900 p-4 rounded-xl">
+        <label class="md:text-lg font-semibold text-white" for="username-id">Username</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl " type="text" name="username" id="username-id">
+            <label class="md:text-lg font-semibold text-white" for="password-id">Password</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl" type="password" name="password" id="password-id">
+            <label class="md:text-lg font-semibold text-white" for="confirm-password-id">Confirm Password</label>
+            <input class="w-60 md:w-auto p-1 border-4 border-red-500 rounded-xl" type="password" name="confirm-password" id="confirm-password-id">
+            <!-- <div class="text-red-400">Password is wrong</div> -->
+            <div class="my-4 flex flex-col gap-y-2">
+            <label class="md:text-lg font-semibold text-white" for="user-image-id">Upload Your Photo</label>
+            <input class="md:text-lg font-semibold text-white" type="file" name="user-image" id="user-image-id">
+        </div>
+        <div class="text-white m-2 my-4 flex gap-4">
+            <label class="md:text-lg font-semibold text-white" for="user-type">User Type: </label>
+            <input class="text-sm md:text-lg font-semibold text-white" type="radio" name="user-type" id="normal-user-id" value="normal-user">Normal User
+            <input class="text-sm md:text-lg font-semibold text-white" type="radio" name="user-type" id="trainer-id" value="trainer">Trainer
+        </div>    
+            <div class="flex justify-center">
+                <input class="text-white bg-red-500 w-28 p-2 rounded-xl cursor-pointer text-lg font-bold" type="submit" value="Submit">
+            </div>
+    </div>
+        <!-- input-details-ends -->
+
+</form>
+
+<!-- registration-form-formobile-ends -->
+
+</body>
+</html>
